@@ -12,6 +12,7 @@ html {
   --color-brand: #2196f3;
   --background-color-brand-primary: #2f303a;
   --background-color-brand-secondary: #f5f4fa;
+  --background-color-white: #ffffff;
   --text-color-primary: #212121;
   --text-color-secondary: #757575;
   --text-color-white: #ffffff;
@@ -207,6 +208,7 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  background-color: var(--background-color-white);
 }
 
 .team-member {
@@ -238,7 +240,7 @@ header {
   gap: 30px;
 }
 
-.clients-icon {
+.clients-icon-link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -250,9 +252,9 @@ header {
   fill: var(--icon-color-secondary);
 }
 
-.clients-icon:hover,
-.clients-icon:focus,
-.clients-icon:active {
+.clients-icon-link:hover,
+.clients-icon-link:focus,
+.clients-icon-link:active {
   fill: var(--color-brand);
   border-color: var(--color-brand);
 }
